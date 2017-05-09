@@ -1,0 +1,160 @@
+.m4 {
+  width: 100%;
+  background-color: white;
+}
+.m4 .module-4_1 {
+  padding-bottom: 70px;
+}
+.m4 .module-4_1 .lavender-grid {
+  padding-top: 0.05px;
+  padding-bottom: 0.05px;
+  width: 100%;
+}
+.m4 .module-4_1 .menu-center:last-child {
+  margin-bottom: 20px;
+}
+.m4 .module-4_1 .menu-center {
+  position: relative;
+  margin: 30px 0 30px 0;
+  text-align: center;
+}
+.m4 .module-4_1 .menu-center .sep-before {
+  width: 50%;
+  font-size: 10px;
+  text-align: right;
+  vertical-align: middle;
+  display: table-cell;
+  padding-top: 24px;
+}
+.m4 .module-4_1 .menu-center .sep-line {
+  display: inline-block;
+  width: 30%;
+  border-top: 0 solid;
+  border-bottom: 1px solid;
+  color: #EDEDED;
+  vertical-align: baseline;
+}
+.m4 .module-4_1 .menu-center .sep-after {
+  width: 50%;
+  font-size: 10px;
+  text-align: left;
+  display: table-cell;
+  vertical-align: middle;
+  padding-top: 24px;
+}
+.m4 .module-4_1 .menu-center .content {
+  padding-right: .7em;
+  padding-left: .7em;
+  display: table-cell;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.m4 .module-4_1 .menu-center .content .text-divider-double {
+  position: relative;
+  letter-spacing: 2px;
+  color: #000000;
+  font-size: 56px;
+  font-family: Libre Baskerville;
+}
+.m4 .module-4_1 .menu-center .content .text-divider-subtitle {
+  color: #cb7152;
+  font-family: 'Handlee';
+  font-size: 1em;
+  letter-spacing: 0.3em;
+  vertical-align: baseline;
+  font-size: 16px;
+}
+.m4 .module-4_1 .menu-center .content .text-divider-subtitle:before,
+.m4 .module-4_1 .menu-center .content .text-divider-subtitle:after {
+  display: inline-block;
+  max-width: auto;
+  height: 15px;
+  content: "~";
+  font-size: 1.2em;
+  padding: 0px 5px;
+}
+.m4 .m4_2 {
+  max-width: 93%;
+  margin: auto;
+}
+.m4 .m4_2 .m4-services:hover .m4-limit-thumbnail a img {
+  background: none;
+  border-radius: 3.6em;
+}
+.m4 .m4_2 .m4-services {
+  width: 20%;
+  padding-top: 0.05px;
+  padding-bottom: 0.05px;
+  position: relative;
+  padding: 0;
+  float: left;
+  box-sizing: border-box;
+  display: block;
+  padding: 0 25px;
+}
+.m4 .m4_2 .m4-services .m4-limit .m4-limit-thumbnail {
+  display: block;
+  max-height: none !important;
+  text-align: inherit;
+  text-align: center;
+}
+.m4 .m4_2 .m4-services .m4-limit .m4-limit-thumbnail img {
+  background: none;
+  margin: 0px;
+  border-radius: 10em;
+  padding: 0px;
+  border: none;
+  transition: border-radius 0.4s ease;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.m4 .m4_2 .m4-services .m4-limit .m4-limit-services-title {
+  margin: 10px 0 12px 0;
+  line-height: 1;
+  color: #000000;
+  font: normal 24px/32px Libre Baskerville;
+  text-align: center;
+  padding-top: 20px;
+}
+.m4 .m4_2 .m4-services .m4-limit .m4-limit-services-title a:hover {
+  text-decoration: none;
+  color: #cb7152;
+}
+.m4 .m4_2 .m4-services .m4-limit .m4-limit-services-title a {
+  border-color: #000000;
+  color: #cb7152;
+  text-decoration: none;
+  color: #000000;
+  transition: color .3s;
+  font-size: 28px;
+}
+.m4 .m4_2 .m4-services .m4-limit .m4-services-content {
+  padding-bottom: 0 !important;
+  margin-bottom: 0;
+  font-size: 90%;
+  line-height: 140%;
+  opacity: 0.7;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+.m4 .m4_2 .m4-services .m4-limit .m4-services-content p {
+  color: #2c2c2c;
+  margin: 1em 0;
+  font: normal 16px/24px Varela Round;
+  font-size: 18px;
+  text-align: center;
+}
+@media (max-width: 480px) {
+    .m4 .m4_2 .m4-services{
+       width: 100%; 
+    }
+  .m4 .module-4_1 .menu-center .content .text-divider-double {
+    font: normal 30px Libre Baskerville;
+  }
+}

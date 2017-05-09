@@ -1,0 +1,258 @@
+a,
+a:hover {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+body {
+  overflow-x: hidden;
+}
+.modul-16 {
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+  padding: 50px 0;
+}
+.modul-16 .tabspill {
+  width: 93%;
+  margin: 0 auto;
+}
+.modul-16 .tabspill .tabbable-panel {
+  padding: 10px;
+}
+.modul-16 .tabspill .tabbable-panel .tabbable-line .nav-tabs {
+  text-align: center;
+  border-bottom: 1px solid #d3ced2;
+}
+.modul-16 .tabspill .tabbable-panel .tabbable-line .nav-tabs li {
+  float: none;
+  display: inline-block;
+  margin-right: 2px;
+}
+.modul-16 .tabspill .tabbable-panel .tabbable-line .nav-tabs li a {
+  padding: 25px 16px;
+  border: 0;
+  margin-right: 0;
+  color: #737373;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.modul-16 .tabspill .tabbable-panel .tabbable-line .nav-tabs li a i {
+  color: #a6a6a6;
+}
+.modul-16 .tabspill .tabbable-panel .tabbable-line .nav-tabs li:hover {
+  margin-top: 0px;
+  border-bottom: 2px solid #cb7152;
+}
+.modul-16 .tabspill .tabbable-panel .tabbable-line .nav-tabs li:hover a {
+  border: 0;
+  background: none !important;
+  color: #cb7152;
+}
+.modul-16 .tabspill .tabbable-panel .tabbable-line .nav-tabs li:hover a i {
+  color: #a6a6a6;
+}
+.modul-16 .tabspill .tabbable-panel .tabbable-line .nav-tabs .active a {
+  border-bottom: 2px solid #cb7152;
+  position: relative;
+}
+.modul-16 .tabspill .tabbable-panel .tabbable-line .nav-tabs .active a i {
+  color: #404040;
+}
+.modul-16 .tabspill .tabbable-panel .tabbable-line .tab-content {
+  margin-top: -3px;
+  background-color: #fff;
+  border: 0;
+  border-top: 1px solid #eee;
+  padding: 15px 0;
+}
+.modul-16 .tabspill .tabbable-panel .tabbable-line .tab-content .tab-pane h2 {
+  font-family: Libre Baskerville;
+}
+.modul-16 .tabspill .tabbable-panel .tabbable-line .tab-content .tab-pane p {
+  font: normal 16px/24px Roboto-Regular;
+}
+.modul-16 .tabspill .tabbable-panel .tabbable-line .tab-content .tab-pane .tab2 {
+  border: 0;
+  border-top: 1px dotted rgba(0,0,0,0.1);
+  margin-bottom: 1.618em;
+  border-bottom: 1px dotted rgba(0,0,0,0.1);
+  width: 100%;
+}
+.modul-16 .tabspill .tabbable-panel .tabbable-line .tab-content .tab-pane .tab2 th {
+  width: 150px;
+  font-weight: 700;
+  padding: 8px;
+  line-height: 1.5;
+  border-top: 0;
+  margin: 0;
+}
+.modul-16 .tabspill .tabbable-panel .tabbable-line .tab-content .tab-pane .tab2 td {
+  font-style: italic;
+  padding: 0;
+}
+.modul-16 .tabspill .tabbable-panel .tabbable-line .tab-content .tab-pane .tab2 td p {
+  margin: 0;
+  padding: 8px 0;
+}
+.modul-16 .tabspill .tabbable-panel .tabbable-line .tab-content .tab-pane .tab2 td p a {
+  color: #000;
+}
+.modul-16 .tabspill .tabbable-panel .tabbable-line .tab-content .tab-pane .tab2 td p a:hover {
+  color: #cb7152;
+}
+.modul-16 .tabspill .tabbable-panel .tabbable-line .tab-content .tab-pane .tab3 {
+  width: 100%;
+}
+.modul-16 .tabspill .tabbable-panel .tabbable-line .tab-content .tab-pane .tab3 span {
+  margin: 0 0 10px;
+  color: #6b6b6b;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+.modul-16 .tabspill .tabbable-panel .tabbable-line .tab-content .tab-pane .tab3 .rating {
+  width: 100%;
+  margin: 0 0 10px;
+  color: #6b6b6b;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+.modul-16 .tabspill .tabbable-panel .tabbable-line .tab-content .tab-pane .tab3 .rating label {
+  display: inline;
+  font-size: 12px;
+  cursor: pointer;
+}
+.modul-16 .tabspill .tabbable-panel .tabbable-line .tab-content .tab-pane .tab3 .rating a i {
+  color: black;
+  font-size: 16px !important;
+  margin-right: 5px !important;
+}
+.modul-16 .tabspill .tabbable-panel .tabbable-line .tab-content .tab-pane .tab3 .review {
+  margin: 0 0 10px;
+  color: #6b6b6b;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+.modul-16 .tabspill .tabbable-panel .tabbable-line .tab-content .tab-pane .tab3 .review textarea {
+  width: 100%;
+  height: 75px;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 0;
+  transition: all .4s;
+  color: #000;
+  border-color: #EDEDED;
+  padding: 15px;
+  margin-bottom: 23px;
+  outline: none;
+  border: solid 1px rgba(0,0,0,0.15);
+  margin: 0;
+  border-radius: 4px;
+}
+.modul-16 .tabspill .tabbable-panel .tabbable-line .tab-content .tab-pane .tab3 .review textarea:hover {
+  border-color: #cb7152;
+}
+.modul-16 .tabspill .tabbable-panel .tabbable-line .tab-content .tab-pane .tab3 .review textarea:focus {
+  border-color: #cb7152;
+}
+.modul-16 .tabspill .tabbable-panel .tabbable-line .tab-content .tab-pane .tab3 .name {
+  width: 48%;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 0 10px;
+  color: #6b6b6b;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+.modul-16 .tabspill .tabbable-panel .tabbable-line .tab-content .tab-pane .tab3 .name input {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 0;
+  transition: all .4s;
+  color: #000;
+  border-color: #EDEDED;
+  padding: 15px;
+  margin-bottom: 23px;
+  outline: none;
+  border: solid 1px rgba(0,0,0,0.15);
+  margin: 0;
+  border-radius: 4px;
+}
+.modul-16 .tabspill .tabbable-panel .tabbable-line .tab-content .tab-pane .tab3 .name input:focus {
+  border-color: #cb7152;
+}
+.modul-16 .tabspill .tabbable-panel .tabbable-line .tab-content .tab-pane .tab3 .email {
+  width: 48%;
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+  margin: 0 0 10px;
+  color: #6b6b6b;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+.modul-16 .tabspill .tabbable-panel .tabbable-line .tab-content .tab-pane .tab3 .email input {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 0;
+  transition: all .4s;
+  color: #000;
+  border-color: #EDEDED;
+  padding: 15px;
+  margin-bottom: 23px;
+  outline: none;
+  border: solid 1px rgba(0,0,0,0.15);
+  margin: 0;
+  border-radius: 4px;
+}
+.modul-16 .tabspill .tabbable-panel .tabbable-line .tab-content .tab-pane .tab3 .email input:focus {
+  border-color: #cb7152;
+}
+.modul-16 .tabspill .tabbable-panel .tabbable-line .tab-content .tab-pane .tab3 .submit-form input {
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  text-shadow: none;
+  border-radius: 10em;
+  border: none;
+  text-align: center !important;
+  font: normal 13px/1em "Varela Round";
+  padding: 1em 2em;
+  transition: color .3s ease-out, border .3s ease-out, background .3s ease-out !important;
+  background: transparent;
+  border: solid 1px #cb7152;
+}
+.modul-16 .tabspill .tabbable-panel .tabbable-line .tab-content .tab-pane .tab3 .submit-form input:hover {
+  background: black;
+  color: white;
+  border-color: black;
+}
+@font-face {
+  font-family: Libre Baskerville;
+  src: url('../fonts/Libre-Baskerville.woff2');
+  font-weight: bold;
+}
+@font-face {
+  font-family: Varela Round;
+  src: url('../fonts/Varela-Round.woff2');
+  font-weight: bold;
+}
+@font-face {
+  font-family: Roboto-Regular;
+  src: url('../fonts/Roboto-Regular.ttf');
+  font-weight: bold;
+}

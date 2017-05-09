@@ -1,0 +1,295 @@
+.modul-7 {
+  margin-top: -100px;
+  margin-bottom: 550px;
+  background-color: white;
+  padding-top: 50px;
+  z-index: 1;
+}
+.modul-7 .row{
+  
+  margin: 0 auto;
+}
+.modul-7 .m7-tabs-all {
+  margin-top: 100px;
+  text-align: center;
+}
+.modul-7 .m7-tabs-all .nav-tabs {
+  border: none;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.modul-7 .m7-tabs-all .nav-tabs li a {
+  color: #2c2c2c;
+  cursor: pointer;
+  width: auto;
+  transition: all .3s;
+  line-height: normal;
+  letter-spacing: 1px;
+  font-size: 11px;
+  font-weight: 600;
+  border: none;
+  padding: 0;
+  text-align: center;
+  font: normal 20px/32px Libre Baskerville;
+  padding: 10px 20px;
+}
+.modul-7 .m7-tabs-all .nav-tabs li a:focus {
+  border: none;
+  outline: none !important;
+  outline-offset: inherit;
+}
+.modul-7 .m7-tabs-all .nav-tabs li a:hover {
+  border: none !important;
+}
+.modul-7 .m7-tabs-all .nav-tabs li a:after {
+  content: " ";
+  display: block;
+  width: 0%;
+  height: 3px;
+  background: #cb7152;
+  margin: auto;
+  margin-top: 5px;
+  transition: all .4s;
+  opacity: 0;
+}
+.modul-7 .m7-tabs-all .nav-tabs li:hover a {
+  border: none;
+  background: none;
+  color: #cb7152;
+}
+.modul-7 .m7-tabs-all .nav-tabs li:hover a:after {
+  width: 100%;
+  opacity: 1;
+}
+.modul-7 .m7-tabs-all .nav-tabs li:hover span {
+  -webkit-transform: translateY(-25px);
+  transform: translateY(-25px);
+  opacity: 1;
+}
+.modul-7 .m7-tabs-all .nav-tabs li:focus {
+  outline: none !important;
+}
+.modul-7 .m7-tabs-all .nav-tabs .active a:hover {
+  border: none !important;
+}
+.modul-7 .m7-tabs-all .nav-tabs .active a:focus {
+  border: none !important;
+}
+.modul-7 .m7-tabs-all .nav-tabs .active a:after {
+  width: 100%;
+  opacity: 1;
+}
+.modul-7 .m7-tabs-all .nav-tabs .active a {
+  color: #cb7152;
+}
+.modul-7 .m7-tabs-all .tab-content{
+    width: 93%;
+    margin: 0 auto;
+}
+.modul-7 .module-18 {
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.modul-7 .module-18 .clearfix {
+  clear: both;
+}
+.modul-7 .module-18 a {
+  color: #000000;
+  transition: color .3s;
+  text-decoration: none;
+}
+.modul-7 .module-18 .limit-wapper {
+  z-index: 555;
+  display: block;
+  margin: 0 -15px;
+  max-width: 1300px;
+  width: auto;
+}
+.modul-7 .module-18 .limit-wapper a:hover {
+  outline: none;
+  color: #cb7152;
+}
+.modul-7 .module-18 .limit-wapper .textmid {
+  text-align: center;
+  position: relative;
+  margin: 0;
+  padding-bottom: 40px;
+  text-transform: uppercase;
+  color: #000000;
+  font: normal 18px/22px Libre Baskerville;
+}
+.modul-7 .module-18 .limit-wapper .product:hover {
+  box-shadow: 0px 2px 16px 0px rgba(0,0,0,0.1);
+}
+.modul-7 .module-18 .limit-wapper ul {
+  list-style: none;
+  position: relative;
+  margin-bottom: 0;
+  font: normal 16px/24px Varela Round;
+}
+.modul-7 .module-18 .limit-wapper ul .product {
+  position: relative;
+  margin-bottom: 0;
+  margin: 0 0 1em;
+  padding: 0;
+  list-style: none;
+  clear: both;
+}
+.modul-7 .module-18 .limit-wapper {
+  width: auto;
+}
+.modul-7 .module-18 .limit-wapper .product {
+  padding: 0px 0px 20px 0px;
+  text-align: center;
+  border: solid 1px #EDEDED;
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+  box-sizing: border-box;
+  background: #ffffff;
+  transition: all .2s ease;
+  height: 400px;
+  margin-bottom: 30px;
+}
+.modul-7 .module-18 .limit-wapper  .product .productimg {
+  position: relative;
+  display: block;
+  max-height: none !important;
+  margin-bottom: 0px;
+  overflow: hidden;
+  transform: translateZ(0);
+  border-radius: 6px 6px 0 0;
+}
+.modul-7 .module-18 .limit-wapper .product .productimg img {
+  display: block;
+  border: 0;
+  box-shadow: none;
+  margin: 0;
+  transform: scale(1.1);
+  width: 100%;
+}
+.modul-7 .module-18 .limit-wapper  .product .productimg img:hover {
+  transition: transform 0.6s;
+  transform: scale(1.0);
+}
+.modul-7 .module-18 .limit-wapper .product .addtocart:hover {
+  opacity: 1;
+  color: #ffffff;
+  text-decoration: none;
+}
+.modul-7 .module-18 .limit-wapper  .product .addtocart {
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  vertical-align: middle;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  text-decoration: none;
+  text-shadow: none;
+  border-radius: 10em;
+  border: none;
+  text-align: center !important;
+  font: normal 13px/1em "Varela Round";
+  padding: 1em 2em;
+  transition: color .3s ease-out, border .3s ease-out, background .3s ease-out !important;
+  background: transparent;
+  border: solid 1px #cb7152;
+  font-size: 11px;
+  padding: 1em 1.9em;
+  margin-top: -60px;
+  background: #ffffff;
+  border: none !important;
+  opacity: 0;
+}
+.modul-7 .module-18 .limit-wapper ul li .product h5 {
+  padding-top: 30px;
+  position: relative;
+  float: none;
+  text-transform: uppercase;
+  font-family: 'Libre Baskerville';
+  line-height: 1.3em;
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: #2c2c2c;
+  margin-top: 17px;
+}
+.modul-7 .module-18 .limit-wapper .product .tagged {
+  margin: 0;
+  display: block;
+  padding: 0px 5px;
+  line-height: 1em;
+}
+.modul-7 .module-18 .limit-wapper .product .tagged a:hover {
+  outline: none;
+  color: #cb7152;
+  opacity: 1;
+}
+.modul-7 .module-18 .limit-wapper .product .tagged a {
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #6b6b6b;
+  line-height: 1em;
+  font-weight: normal;
+  opacity: 0.5;
+  transition: all .3s;
+}
+.modul-7 .module-18 .limit-wapper .product .tagged a:after {
+  content: "\00B7";
+  font-size: 14px;
+  color: #6b6b6b;
+  padding-left: 5px;
+}
+.modul-7 .module-18 .limit-wapper .product h3 {
+  margin-top: 3px;
+  box-shadow: none;
+  font-size: 18px;
+  color: #000000;
+  padding-bottom: .1em;
+  line-height: 1.4em;
+  transition: color .3s;
+  transition: all .6s;
+  font: normal 18px/25px Libre Baskerville;
+}
+.modul-7 .module-18 .limit-wapper .product h3:hover {
+  color: #cb7152;
+}
+.modul-7 .module-18 .limit-wapper .product .old-price {
+  display: block;
+  color: #000000;
+  position: relative;
+  transform: translateZ(0);
+  margin: 0px;
+  font: normal 16px/18px Libre Baskerville;
+  font-size: .857em;
+  font-weight: 400;
+  font: normal 16px/18px Varela Round;
+  text-decoration: line-through!important;
+}
+.modul-7 .module-18 .limit-wapper .product .new-price {
+  display: block;
+  color: #cb7152;
+  position: relative;
+  transform: translateZ(0);
+  margin: 0px;
+  font: normal 16px/18px Libre Baskerville;
+  font-size: .857em;
+  font-weight: 400;
+  font: normal 16px/18px Varela Round;
+}
+@font-face {
+  font-family: Open Sans;
+  src: url('../fonts/OpenSans-Regular.ttf');
+  font-weight: bold;
+}
+@font-face {
+  font-family: Libre Baskerville;
+  src: url('../fonts/Libre-Baskerville.woff2');
+  font-weight: bold;
+}

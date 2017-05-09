@@ -1,0 +1,192 @@
+.m7{
+    background-color: white;
+    padding-top: 100px;
+}
+.modul-7 {
+  width: 93%;
+  margin: 0 auto;
+  z-index: 1;
+}
+.modul-7 .row{
+  margin: 0;
+}
+.modul-7 .m7-tabs-all {
+  text-align: center;
+}
+.modul-7 .m7-tabs-all .nav-tabs {
+  border: none;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.modul-7 .m7-tabs-all .nav-tabs li a {
+  color: #2c2c2c;
+  cursor: default;
+  width: auto;
+  margin: 0 .6em;
+  transition: all .3s;
+  line-height: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 11px;
+  font-weight: 600;
+  border: none;
+  padding: 0;
+  text-align: center;
+}
+.modul-7 .m7-tabs-all .nav-tabs li a span {
+  display: inline;
+  font: 400 11px/18px "Open Sans", sans-serif;
+  border-radius: 3px;
+  color: #FFFFFF;
+  margin: 0 auto;
+  padding: 4px 0;
+  text-align: center;
+  width: 34px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: transform .25s, opacity .25s;
+  background-color: #626161;
+}
+.modul-7 .m7-tabs-all .nav-tabs li a span:after {
+  border-top: 4px solid #626161;
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+}
+.modul-7 .m7-tabs-all .nav-tabs li a:focus {
+  border: none;
+  outline: none !important;
+  outline-offset: inherit;
+}
+.modul-7 .m7-tabs-all .nav-tabs li a:hover {
+  border: none !important;
+}
+.modul-7 .m7-tabs-all .nav-tabs li a:after {
+  content: " ";
+  display: block;
+  width: 0%;
+  height: 1px;
+  background: #cb7152;
+  margin: auto;
+  margin-top: 5px;
+  transition: all .4s;
+  opacity: 0;
+}
+.modul-7 .m7-tabs-all .nav-tabs li:hover a {
+  border: none;
+  background: none;
+  color: #cb7152;
+}
+.modul-7 .m7-tabs-all .nav-tabs li:hover a:after {
+  width: 40%;
+  opacity: 1;
+}
+.modul-7 .m7-tabs-all .nav-tabs li:hover span {
+  -webkit-transform: translateY(-25px);
+  transform: translateY(-25px);
+  opacity: 1;
+}
+.modul-7 .m7-tabs-all .nav-tabs li:focus {
+  outline: none !important;
+}
+.modul-7 .m7-tabs-all .nav-tabs .active a:hover {
+  border: none !important;
+}
+.modul-7 .m7-tabs-all .nav-tabs .active a:focus {
+  border: none !important;
+}
+.modul-7 .m7-tabs-all .nav-tabs .active a:after {
+  width: 40%;
+  opacity: 1;
+}
+.modul-7 .m7-tabs-all .nav-tabs .active a {
+  color: #cb7152;
+}
+.modul-7 .m7-tabs-all .tab-content .tab-pane .tab-content-pic {
+  position: relative;
+  transition: all 0.5s;
+  padding: 0px;
+}
+.modul-7 .m7-tabs-all .tab-content .tab-pane .tab-content-pic img {
+  
+  width: 100%;
+}
+.modul-7 .m7-tabs-all .tab-content .tab-pane .tab-content-pic span {
+  opacity: 0;
+  position: absolute;
+  display: block;
+  top: 50%;
+  transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+  transform: translateY(-50%) !important;
+  margin-top: 0px;
+  z-index: 2;
+  top: 120px;
+  left: 30px;
+  right: 30px;
+  padding: 30px 0px 30px 0;
+  content: '';
+  transition: opacity 0.5s, transform 0.35s;
+  z-index: 1;
+  border: 1px solid #cb7152;
+}
+.modul-7 .m7-tabs-all .tab-content .tab-pane .tab-content-pic span h3 {
+  transition: transform 0.35s;
+  transform: translate3d(0,-20px,0);
+  letter-spacing: 1px;
+}
+.modul-7 .m7-tabs-all .tab-content .tab-pane .tab-content-pic span h3 a {
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+  color: #ffffff !important;
+  font-weight: normal;
+  display: block;
+  line-height: 1.3em;
+  font: normal 20px/25px Libre Baskerville;
+  text-decoration: none;
+}
+.modul-7 .m7-tabs-all .tab-content .tab-pane .tab-content-pic:hover span {
+  opacity: 1;
+}
+.modul-7 .m7-tabs-all .tab-content .tab-pane .tab-content-pic:hover span:before {
+  opacity: 1;
+  border-left: 0;
+  border-right: 0;
+  transform: scale(0,1);
+  transition: opacity 0.35s, transform 0.35s;
+}
+.modul-7 .m7-tabs-all .tab-content .tab-pane .tab-content-pic:hover span:after {
+  opacity: 1;
+  border-top: 0;
+  border-bottom: 0;
+  transform: scale(1,0);
+  transition: opacity 0.35s, transform 0.35s;
+}
+.modul-7 .m7-tabs-all .tab-content .tab-pane .tab-content-pic:hover a:hover {
+  color: #cb7152 !important;
+  transition: opacity 1s, transform 1s;
+}
+.slideShow-pic{
+    transform: translateX(50px);
+}
+@font-face {
+  font-family: Open Sans;
+  src: url('../fonts/OpenSans-Regular.ttf');
+  font-weight: bold;
+}
+@font-face {
+  font-family: Libre Baskerville;
+  src: url('../fonts/Libre-Baskerville.woff2');
+  font-weight: bold;
+}

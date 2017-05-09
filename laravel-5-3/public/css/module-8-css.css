@@ -1,0 +1,77 @@
+.module-8{
+    background-color: white;
+    z-index: 1;
+}
+.module-8 .lavender-grid {
+  padding-top: 0.05px;
+  padding-bottom: 0.05px;
+  width: 100%;
+}
+.module-8 .menu-center:last-child {
+  margin-bottom: 20px;
+}
+.module-8 .menu-center {
+  position: relative;
+  margin: 30px 0 30px 0;
+  text-align: center;
+}
+.module-8 .menu-center .sep-before {
+  width: 50%;
+  font-size: 10px;
+  text-align: right;
+  vertical-align: middle;
+  display: table-cell;
+  padding-top: 24px;
+}
+.module-8 .menu-center .sep-line {
+  display: inline-block;
+  width: 30%;
+  border-top: 0 solid;
+  border-bottom: 1px solid;
+  color: #EDEDED;
+  vertical-align: baseline;
+}
+.module-8 .menu-center .sep-after {
+  width: 50%;
+  font-size: 10px;
+  text-align: left;
+  display: table-cell;
+  vertical-align: middle;
+  padding-top: 24px;
+}
+.module-8 .menu-center .content {
+  padding-right: .7em;
+  padding-left: .7em;
+  display: table-cell;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.module-8 .menu-center .content .text-divider-double {
+  position: relative;
+  letter-spacing: 2px;
+  color: #000000;
+  font-size: 56px;
+  font-family: Libre Baskerville;
+}
+.module-8 .menu-center .content .text-divider-subtitle {
+  color: #cb7152;
+  font-family: 'Handlee';
+  font-size: 1em;
+  letter-spacing: 0.3em;
+  vertical-align: baseline;
+  font-size: 16px;
+}
+.module-8 .menu-center .content .text-divider-subtitle:before,
+.module-8 .menu-center .content .text-divider-subtitle:after {
+  display: inline-block;
+  max-width: auto;
+  height: 15px;
+  content: "~";
+  font-size: 1.2em;
+  padding: 0px 5px;
+}
+@media (max-width: 473px) {
+  .module-8 .menu-center .content .text-divider-double {
+    font: normal 30px Libre Baskerville;
+  }
+}

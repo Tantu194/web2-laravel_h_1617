@@ -1,0 +1,128 @@
+.module-8-1{
+    background-color: white;
+    z-index: 1;
+}
+.module-8-1 .container{
+    width: 93%;
+    margin: 0 auto;
+    padding: 0;
+}
+.module-8-1 .module-8-main {
+  padding-top: 40px;
+}
+.module-8-1 .module-8-main h3 {
+  padding-bottom: 12px;
+  padding-right: 60px;
+}
+.module-8-1 .module-8-main .grid-1 {
+  padding: 0 20px;
+}
+.module-8-1 .module-8-main .grid-1 .cleafix {
+  clear: both;
+}
+.module-8-1 .module-8-main .grid-1 .foodpress_menu {
+  font-family: 'Varela Round';
+  background: transparent;
+  font-size: 14px;
+  color: #767676;
+  position: relative;
+}
+.module-8-1 .module-8-main .grid-1 .foodpress_menu h3::before {
+  display: block;
+  line-height: 1em;
+  font-size: 0.4em;
+  letter-spacing: 4px;
+  color: #6b6b6b;
+  content: ".......................................................................................................................";
+  max-width: 100%;
+  overflow: hidden;
+  height: 10px;
+  bottom: 0px;
+  position: absolute;
+}
+.module-8-1 .module-8-main .grid-1 .foodpress_menu h2 {
+  font: 24px/32px 'Libre Baskerville';
+  margin-top: 15px;
+  transition: all .2s ease;
+  color: #cb7052;
+}
+.module-8-1 .module-8-main .grid-1 .foodpress_menu .fp_container {
+  padding-bottom: -20px;
+}
+.module-8-1 .module-8-main .grid-1 .foodpress_menu .food_items_container {
+  overflow: initial;
+  position: relative;
+  overflow: hidden;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.module-8-1 .module-8-main .grid-1 .foodpress_menu .fp_box {
+  padding-top: 7px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  width: 100%;
+  position: relative;
+}
+.module-8-1 .module-8-main .grid-1 .foodpress_menu .fp_box .inner .menu_description {
+  font-style: normal;
+  font-size: 12px;
+  color: #6b6b6b;
+  font-weight: 300;
+  line-height: 140%;
+}
+.module-8-1 .module-8-main .grid-1 .foodpress_menu .fp_box .inner .menu_description .fp_inline_btn {
+  display: none !important;
+}
+.module-8-1 .module-8-main .grid-1 .foodpress_menu .fp_box .inner .menu_description a {
+  text-decoration: none;
+  color: #000000;
+  transition: color .3s;
+}
+.module-8-1 .module-8-main .grid-1 .foodpress_menu .fp_box .inner h3:hover {
+  background-color: #ffffff;
+  display: block;
+  color: #cb7152;
+}
+.module-8-1 .module-8-main .grid-1 .foodpress_menu .fp_box .inner h3 {
+  position: relative;
+  font-size: 16px;
+  color: #000000;
+  font-family: Varela Round;
+  margin: 5px 0;
+  line-height: 130%;
+  padding-bottom: 10px;
+}
+.module-8-1 .module-8-main .grid-1 .foodpress_menu .fp_box .inner .fp_price {
+  position: absolute;
+  right: 0px;
+  font-style: normal;
+  font-size: 14px;
+  color: #cb7152;
+  font: inherit;
+}
+@media (min-width: 1300px) {
+  .container {
+    width: 1300px;
+  }
+}
+@media (max-width: 956px) {
+  .module-8 .module-8-main .grid-1 {
+    float: none;
+    max-width: 100%;
+  }
+}
+@media (min-width: 1297px) {
+  .module-8 .module-8-main .grid-1 {
+    max-width: 33, 333%;
+  }
+}
+@media (max-width: 473px) {
+  .module-8 .menu-center .content .text-divider-double {
+    font: normal 30px Libre Baskerville;
+  }
+}

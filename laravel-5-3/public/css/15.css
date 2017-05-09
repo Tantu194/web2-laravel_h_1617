@@ -1,0 +1,244 @@
+.m15{
+    background-color: white;
+    z-index: 1;
+}
+.Module-15{
+    width: 93%;
+    margin: 0 auto;
+    margin-top: -20px;
+    padding-top: 20px;
+}
+.Module-15 .row {
+
+    padding: 0 -15px;
+}
+.Module-15 .anh img {
+    display: block;
+    width: 100%;
+}
+.Module-15 .Module-15-summary .price {
+    color: #77a464;
+    font-size: 1.5em;
+}
+.Module-15 .Module-15-summary .price .woocommerce-Price {
+    color: #cb7152;
+    text-decoration: none !important;
+    font-size: 30px;
+}
+.Module-15 .Module-15-summary .text {
+    padding-left: 20px;
+}
+.Module-15 .Module-15-summary .text p {
+    margin: 1em 0;
+    color: #2c2c2c;
+    font-size: 17px;
+}
+.Module-15 .Module-15-summary .cart {
+    height: 52px;
+    padding-top: 10px;
+    padding-left: 20px;
+    margin: 20px 0px;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+.Module-15 .Module-15-summary .cart .quantity {
+    float: left;
+    position: relative;
+    background: #ffffff;
+    border: 1px solid #dfdfdf;
+    border-radius: 4px;
+    margin: 0px 20px 0px 0px !important;
+    max-width: 60px;
+}
+.Module-15 .Module-15-summary .cart .quantity input {
+    border: none;
+    width: 60px;
+    height: 40px;
+    padding: 0;
+    font-size: 16px;
+    color: #000000;
+    background: #ffffff;
+    padding-left: 12px;
+    border-radius: 4px;
+    position: relative;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.Module-15 .Module-15-summary .cart button {
+    vertical-align: middle;
+    transition: color .3s ease-out, border .3s ease-out, background .3s ease-out !important;
+    border-radius: 10em;
+    text-align: center !important;
+    font: normal 13px/1em Varela Round;
+    padding: 1em 2em;
+    background: transparent;
+    border: solid 1px #cb7152;
+    color: #000;
+    float: left;
+}
+.Module-15 .Module-15-summary .cart .button:hover {
+    border-color: #000000;
+    background: #000000;
+    color: #fff;
+}
+.Module-15 .Module-15-summary .product_meta {
+    padding: 15px 0 0 0;
+    border-top: 1px solid #EDEDED;
+    padding-bottom: 40px;
+}
+.Module-15 .Module-15-summary .product_meta .posted_in {
+    margin-bottom: 10px;
+    display: block;
+}
+.Module-15 .Module-15-summary .product_meta span {
+    line-height: 25px;
+    font: normal 16px/24px Varela Round;
+}
+.Module-15 .Module-15-summary .product_meta .posted_in a {
+    display: inline-block;
+    margin-left: 5px;
+    padding: 3px 15px;
+    font-size: 12px;
+    border: solid 1px #EDEDED;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: normal;
+    color: #000000;
+    font: normal 13px/1em Varela Round;
+}
+.Module-15 .Module-15-summary .product_meta .posted_in a:hover {
+    border-color: #cb7152;
+}
+.Module-15 .Module-15-summary .product_meta .tagged_as {
+    margin-bottom: 10px;
+    display: block;
+}
+.Module-15 .Module-15-summary .product_meta .tagged_as a:first-child {
+    margin-left: 3px;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+}
+.Module-15 .Module-15-summary .product_meta .tagged_as a {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: normal;
+    color: #000000;
+    text-decoration: none;
+    padding-left: 15px;
+}
+.Module-15 .Module-15-summary .product_meta .tagged_as a:hover {
+    color: #cb7152 !important;
+}
+.Module-15 .Module-15-summary .product_meta a:hover {
+    color: #cb7152 !important;
+}
+.Module-15 .Module-15-summary .icon {
+    border-top: 1px solid #EDEDED;
+    padding-top: 50px;
+}
+.Module-15 .Module-15-summary .icon .fb {
+    width: 37px;
+    height: 34px;
+    float: left;
+}
+.Module-15 .Module-15-summary .icon .fb a {
+    background: #3b5998;
+    color: #fff !important;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    padding-top: 8px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+.Module-15 .Module-15-summary .icon .fb a:hover {
+    border: none;
+    opacity: .6;
+}
+.Module-15 .Module-15-summary .icon .tw {
+    width: 37px;
+    height: 34px;
+    float: left;
+}
+.Module-15 .Module-15-summary .icon .tw a {
+    background: #00acee;
+    color: #fff !important;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    padding-top: 8px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+.Module-15 .Module-15-summary .icon .tw a:hover {
+    border: none;
+    opacity: .6;
+}
+.Module-15 .Module-15-summary .icon .pin {
+    width: 37px;
+    height: 34px;
+    float: left;
+}
+.Module-15 .Module-15-summary .icon .pin a {
+    background: #ca1f27;
+    color: #fff !important;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    padding-top: 8px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+.Module-15 .Module-15-summary .icon .pin a:hover {
+    border: none;
+    opacity: .6;
+}
+.Module-15 .Module-15-summary .icon .tum {
+    width: 37px;
+    height: 34px;
+    float: left;
+}
+.Module-15 .Module-15-summary .icon .tum a {
+    background: #2c4762;
+    color: #fff !important;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    padding-top: 8px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+.Module-15 .Module-15-summary .icon .tum a:hover {
+    border: none;
+    opacity: .6;
+}
+.Module-15 .Module-15-summary .icon .google {
+    width: 37px;
+    height: 34px;
+    float: left;
+}
+.Module-15 .Module-15-summary .icon .google a {
+    background: #dd4b39;
+    color: #fff !important;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    padding-top: 8px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+.Module-15 .Module-15-summary .icon .google a:hover {
+    border: none;
+    opacity: .6;
+}
+@font-face {
+    font-family: Varela Round;
+    src: url('../fonts/Varela-Round.woff2');
+    font-weight: bold;
+}

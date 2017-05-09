@@ -1,0 +1,101 @@
+a,
+a:hover {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+body {
+    overflow-x: hidden;
+}
+.modul-12 {
+    max-width: 100%;
+    z-index: 1;
+    background-color: white;
+}
+.modul-12 .m10-title {
+    padding-top: 0.05px;
+    padding-bottom: 0.05px;
+    max-width: 93%;
+    margin: 0 auto;
+}
+.modul-12 .m10-title-main:last-child {
+    margin-bottom: 20px;
+}
+.modul-12 .m10-title-main {
+    position: relative;
+    margin: 30px 0 30px 0;
+    text-align: center;
+}
+.modul-12 .m10-title-main .line-before {
+    width: 50%;
+    font-size: 10px;
+    text-align: right;
+    vertical-align: middle;
+    display: table-cell;
+    padding-top: 24px;
+}
+.modul-12 .m10-title-main .under-line {
+    display: inline-block;
+    width: 30%;
+    border-top: 0 solid;
+    border-bottom: 1px solid;
+    color: #EDEDED;
+    vertical-align: baseline;
+}
+.modul-12 .m10-title-main .line-after {
+    width: 50%;
+    font-size: 10px;
+    text-align: left;
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 24px;
+}
+.modul-12 .m10-title-main .content {
+    padding-right: .7em;
+    padding-left: .7em;
+    display: table-cell;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.modul-12 .m10-title-main .content .content-1 {
+    position: relative;
+    letter-spacing: 2px;
+    color: #000000;
+    font: normal 56px/68px Libre Baskerville;
+}
+.modul-12 .m10-title-main .content .content-2 {
+    color: #cb7152;
+    font-family: 'Handlee';
+    font-size: 1em;
+    letter-spacing: 0.3em;
+    vertical-align: baseline;
+    font-size: 16px;
+}
+.modul-12 .m10-title-main .content .content-2:before,
+.modul-12 .m10-title-main .content .content2:after {
+    display: inline-block;
+    max-width: auto;
+    height: 15px;
+    content: "~";
+    font-size: 1.2em;
+    padding: 0px 5px;
+}
+
+@media (max-width: 480px){
+    .modul-12 .m10-title-main .content .content-1 {
+        font: normal 36px/38px Libre Baskerville;
+    }
+}
+
+@font-face {
+    font-family: Libre Baskerville;
+    src: url('../fonts/Libre-Baskerville.woff2');
+    font-weight: bold;
+}
+@font-face {
+    font-family: Varela Round;
+    src: url('../fonts/Varela-Round.woff2');
+    font-weight: bold;
+}
